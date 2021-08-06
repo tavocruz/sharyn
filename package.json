@@ -1,4 +1,9 @@
 {
+  "name": "sharynjs-fork",
+  "version": "1.0.0",
+  "description": "SharynJS forked repo",
+  "author": "Gustavo Cruz",
+  "license": "MIT",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -49,12 +54,16 @@
     "jest": "24.9.0",
     "jsdoc-api": "5.0.3",
     "klaw-sync": "6.0.0",
-    "lerna": "3.16.4",
+    "lerna": "^4.0.0",
     "mustache": "3.0.3",
     "prettier": "1.18.2",
     "react": "16.9.0",
     "react-dom": "16.9.0",
     "react-router": "5.0.1",
+    "sharyn-dev": "^1.1.0",
     "typescript": "3.6.2"
+  },
+  "dependencies": {
+    "sharyn": "^12.8.1"
   }
 }
